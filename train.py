@@ -22,8 +22,8 @@ def denormalize_model_params(t0, t1, a, b, c, d):
     return dt0, dt1
 
 
-# theta 1 * mileage + theta 0 = price
 def update_weights(X, y, theta0, theta1, learning_rate):
+    # theta 1 * mileage + theta 0 = price
     theta0_gradient = 0
     theta1_gradient = 0
     m = len(X)
