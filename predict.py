@@ -1,6 +1,4 @@
-import json
 from utils import read_model_params, predict
-
 
 
 if __name__ == "__main__":
