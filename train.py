@@ -2,8 +2,7 @@ import pandas as pd
 from utils import (write_model_params,
                    compute_cost,
                    plot_data,
-                   plot_loss_history,
-                   )
+                   plot_loss_history)
 
 
 def normalize_features(data):
